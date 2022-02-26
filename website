@@ -1,2 +1,11 @@
 import urllib.request
 contents = urllib.request.urlopen("http://example.com/foo/bar").read()
+
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href=" ">
+<body>
+    <div></div>
+</body>
+</html>
