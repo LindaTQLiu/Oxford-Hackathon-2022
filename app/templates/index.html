@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Face Your Seeker</title>
+        <script src="{{ url_for('static', filename='js/libs/p5.min.js') }}"></script>
+
+        <!--<img src="{{url_for('static', filename='background.png')}}" align="middle" />-->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div style="text-align: center">
+            <canvas id="glCanvas", width=1420, height = 720></canvas>
+        </div>
+        <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    </body>
+</html>
